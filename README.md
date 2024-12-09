@@ -48,3 +48,10 @@ password =>password,
 User
 email => john@example.com,
 password => password,
+
+
+git add .
+
+git commit -m 'commitname'
+
+git push

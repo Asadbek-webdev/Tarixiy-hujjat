@@ -63,6 +63,10 @@
                     @foreach ($tags as $tag)
                         <option value="{{ $tag->id }}">{{ $tag->name }}</option>
                     @endforeach
+
+
+
+                    
                 </select>
                 <label for="file-upload"  style="height: 90px"
                     class="flex flex-col items-center justify-center w-full h-48 border-2 border-dashed border-gray-300 rounded-lg cursor-pointer hover:border-blue-500 transition">
